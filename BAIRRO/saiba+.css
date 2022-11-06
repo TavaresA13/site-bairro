@@ -1,0 +1,531 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+P{
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+
+
+#cabeçalho{
+   
+    background-color: rgb(18, 95, 12);
+    width: 100%;
+    height: 85px;
+    left: -5px;
+    top: 0px;
+    position: fixed;
+    z-index: 10;
+    
+
+}
+#logo{
+    position: absolute;
+    z-index: 3;
+    height: 70px;
+    width: 110px;
+    border-radius: 10px;
+    top: 7px;
+    left: 30px
+}
+
+#prefeitura{
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+
+}
+#textos{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    margin-top: 20px;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    right: 300px;
+   
+}
+#textos a{
+    margin-left: 20px;
+}
+#lapa{
+    font-family: 'Oswald', sans-serif ;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 260px;
+
+}
+
+div div p{
+    margin-left: 70px;
+      
+    text-decoration: none;
+    }
+
+#conteúdo{
+    position: absolute;
+    top: 650px;
+    left: 100px;
+}
+#edu img{
+  width: 200px; 
+  height: 60px; 
+  position: relative; 
+  z-index: 1; 
+  margin-bottom: 0; 
+}
+#edu{
+    margin-top: 50px;
+    position: absolute;
+}
+#edu p{
+    position: relative;
+    top: -57px;
+    z-index: 2;
+    font-size: 30px;
+    color: white;
+}
+a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+  }
+  
+  
+  
+  /*Quando o mouse passa por cima*/
+  #cabeçalho a:hover{
+    color: rgb(18, 95, 12);
+    background-color: white;
+    border-radius: 5px;
+    
+    text-decoration: none;
+    
+  }
+  #text-lista ol a:hover{
+    color: rgb(203, 203, 203);
+    text-decoration: none;
+    width: 100px;
+    
+
+
+    
+  }
+  /*Link ativo/selecionado*/
+ 
+  #lista{
+    position: absolute;
+    top: 150px;
+    left: 530px;
+
+    
+  }
+  #lista img{
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+    margin-bottom: 0px;
+
+
+  }
+  #text-lista{
+    margin-top: 60px;
+    margin-left: 0px;
+    color: white;
+    font-size: 25px;
+     
+   }
+  #text-lista a{
+    display: inline-block;
+    font-size: 20px;
+    
+    
+  }
+   
+    
+#text-lista li{
+    margin-top: 10px;
+    margin-left: 70px;
+    text-decoration: none;
+    
+}
+#título img{
+    width: 600px;
+}
+#título p{
+    position: absolute;
+    top: 35px;
+    font-size: 35px;
+    color: white;
+}
+
+
+#edud{
+    position: absolute;
+    top: 63px;
+    left: 30px;
+      
+
+}
+#edud img{
+    width: 750px;
+    height: 270px;
+}
+
+#edud p{
+    font-size: 23px;
+    position: absolute;
+    top: 25px;
+    left: -40px;
+    color: black;
+    width: 700px;
+}
+#edud #imgedu{
+    position: absolute;
+    top: 0px;
+    left: 830px;
+    width: 300px;
+
+    
+}
+
+
+#muro-baixo{
+    position: absolute;
+    width: 496px;
+    height: 393px;
+    right: 0px;
+    top: 240px;
+  
+}
+#muro-acima{
+    width:469px;
+    height:393px;
+    position: absolute;
+    top: 80px;
+}
+
+
+#edu #logoedu{
+    position: absolute;
+    left: 10px;
+    top: 5px;
+    width: 60px;
+    height: 60px
+    
+}
+#lazer{
+    position: absolute;
+    top: 600px;
+    left: 0px;
+    
+}
+#lazer img:nth-child(2){
+    position: absolute;
+    top: -65px;
+    left: -3px ;
+    height: 60px;
+    width: 150px;
+    }
+#lazer img:nth-child(1){
+    width: 750px;
+    margin-left: 30px;
+
+    }
+    #lazer p:nth-child(3){
+        position: absolute;
+        top: -57px;
+        z-index: 2;
+        font-size: 30px;
+        color: white;
+    }
+    #lazer p:nth-child(4){
+        position: absolute;
+        top: 25px;
+        font-size: 23px;
+        width: 650px;
+    }
+    #lazer img:nth-last-child(2){
+        position: absolute;
+        top: -70px;
+        left: 0;
+        width: 80px;
+    }
+    #lazer img:nth-last-child(1){
+        position: absolute;
+        top: 0px;
+        left: 840px;
+        width: 300px;
+
+    }
+
+    #lazer{
+    position: absolute;
+    top: 600px;
+    left: 0px;
+    
+}
+#lazer img:nth-child(2){
+    position: absolute;
+    top: -65px;
+    left: -3px ;
+    height: 60px;
+    width: 150px;
+    }
+#lazer img:nth-child(1){
+    width: 750px;
+    margin-left: 30px;
+
+    }
+    #lazer p:nth-child(3){
+        position: absolute;
+        top: -57px;
+        z-index: 2;
+        font-size: 30px;
+        color: white;
+    }
+    #lazer p:nth-child(4){
+        position: absolute;
+        top: 25px;
+        font-size: 23px;
+        width: 650px;
+    }
+    #lazer img:nth-last-child(2){
+        position: absolute;
+        top: -70px;
+        left: 0;
+        width: 80px;
+    }
+    #lazer img:nth-last-child(1){
+        position: absolute;
+        top: 0px;
+        left: 840px;
+        width: 300px;
+        
+    }
+    /* gastronomia */
+    #lazer{
+        position: absolute;
+        top: 600px;
+        left: 0px;
+        
+    }
+    #lazer img:nth-child(2){
+        position: absolute;
+        top: -65px;
+        left: -3px ;
+        height: 60px;
+        width: 150px;
+        }
+    #lazer img:nth-child(1){
+        width: 750px;
+        margin-left: 30px;
+    
+        }
+        #lazer p:nth-child(3){
+            position: absolute;
+            top: -57px;
+            z-index: 2;
+            font-size: 30px;
+            color: white;
+        }
+        #lazer p:nth-child(4){
+            position: absolute;
+            top: 25px;
+            font-size: 23px;
+            width: 650px;
+        }
+        #lazer img:nth-last-child(2){
+            position: absolute;
+            top: -70px;
+            left: 0;
+            width: 80px;
+        }
+        #lazer img:nth-last-child(1){
+            position: absolute;
+            top: 0px;
+            left: 840px;
+            width: 300px;
+            
+        }
+        #gastro{
+            position: absolute;
+            top: 1020px;
+            left: 0px;
+            
+        }
+        #gastro img:nth-child(2){
+            position: absolute;
+            top: -65px;
+            left: -3px ;
+            height: 60px;
+            width: 230px;
+            }
+        #gastro img:nth-child(1){
+            width: 750px;
+            margin-left: 30px;
+        
+            }
+            #gastro p:nth-child(3){
+                position: absolute;
+                top: -57px;
+                z-index: 2;
+                font-size: 30px;
+                color: white;
+            }
+            #gastro p:nth-child(4){
+                position: absolute;
+                top: 25px;
+                font-size: 23px;
+                width: 650px;
+            }
+            #gastro img:nth-last-child(2){
+                position: absolute;
+                top: -60px;
+                left: 0;
+                width: 60px;
+            }
+            #gastro img:nth-last-child(1){
+                position: absolute;
+                top: 0px;
+                left: 840px;
+                width: 300px;
+                
+            }
+/* rodapé */
+            footer{
+                position: absolute;
+                bottom: -1700px;
+            width: 100%;
+                
+            }
+            footer img:nth-child(2){
+                position: absolute;
+                top: 50px;
+                left: 200px;
+                z-index: 10;
+                background-color: black;
+                
+            }
+            footer img:nth-child(1){
+                width: 100%;
+                
+            }
+            footer p:nth-child(8){
+                position: absolute;
+                left: 50px;
+                top: 70px;
+                font-family: 'Oswald', sans-serif ;
+                font-style: italic;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 58px;
+                color: rgb(196, 189, 189);
+            }
+
+            #link p:nth-child(1){
+                position: absolute;
+                top: 50px;
+                left: 240px;
+                font-size: 23px;
+                width: 100%;
+                color: rgb(196, 189, 189);
+            }
+            #link p:nth-child(2){
+                position: absolute;
+                top: 86px;
+                left: 240px;
+                font-size: 23px;
+                color: rgb(196, 189, 189);
+            }
+            #link p:nth-child(3){
+                position: absolute;
+                top: 122px;
+                left: 240px;
+                font-size: 23px;
+                color: rgb(196, 189, 189);
+            }
+            #link p:nth-child(4){
+                position: absolute;
+                top: 50px;
+                left: 370px;
+                font-size: 23px;
+                color: rgb(196, 189, 189);
+            }
+            #link p:nth-child(5){
+                position: absolute;
+                top: 86px;
+                left: 370px;
+                font-size: 23px;
+                color: rgb(196, 189, 189);
+            }
+            footer img:nth-child(6){
+                position: absolute;
+                top: 50px;
+                left: 480px;
+                z-index: 10;
+                background-color: black;
+            }
+            footer p:nth-child(9){
+                position: absolute;
+                top: 55px;
+                left: 500px;
+                width: 340px;
+                font-size: 20px;
+                color: rgb(196, 189, 189);
+            }
+            
+            footer p:nth-child(10){
+                position: absolute;
+                top: 55px;
+                left: 830px;
+                width: 340px;
+                font-size: 20px;
+                color: rgb(196, 189, 189);
+            }
+            footer p:nth-child(10){
+                position: absolute;
+                top: 55px;
+                left: 830px;
+                width: 340px;
+                font-size: 20px;
+                color: rgb(196, 189, 189);
+            }
+            footer p:nth-child(11){
+                position: absolute;
+                top: 160px;
+                left: 1000px;
+                width: 340px;
+                font-size: 20px;
+                color: rgb(196, 189, 189);
+            }
+            footer img:nth-child(3){
+                position: absolute;
+                top: 35px;
+                left: 1230px;
+            }
+            footer img:nth-child(5){
+                position: absolute;
+                top: 35px;
+                left: 1170px;
+            }
+            footer img:nth-child(4){
+                position: absolute;
+                top: 33px;
+                left: 1100px;   
+            } 

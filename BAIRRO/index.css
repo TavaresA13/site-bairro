@@ -1,0 +1,480 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+P{
+    font-family: 'Oswald', sans-serif;
+    
+}
+a{
+    color: white;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#cabeçalho{
+   
+    background-color: rgb(18, 95, 12);
+    width: 100%;
+    height: 85px;
+    left: -5px;
+    top: 0px;
+    position: fixed;
+    z-index: 10;
+    
+
+}
+#logo{
+    position: absolute;
+    z-index: 3;
+    height: 70px;
+    width: 110px;
+    border-radius: 10px;
+    top: 7px;
+    left: 30px
+}
+
+#prefeitura{
+    height: 60px;
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    right: 40px;
+
+}
+#textos{
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    margin-top: -30px;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    right: 300px;
+   
+}
+#textos a{
+    margin-left: 20px;
+}
+#lapa{
+    font-family: 'Oswald', sans-serif ;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: white;
+    position: absolute;
+    top: 10px;
+    left: 260px;
+
+}
+ #textos a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    
+    
+  }
+  
+  
+  
+  /*Quando o mouse passa por cima*/
+  #cabeçalho a:hover{
+    color: rgb(18, 95, 12);
+    background-color: white;
+    border-radius: 5px;
+    
+    text-decoration: none;
+    
+  }
+  #text-lista ol a:hover{
+    color: rgb(203, 203, 203);
+    text-decoration: none;
+    width: 100px;
+    
+
+
+    
+  }
+
+
+
+
+
+
+div div p{
+   margin-left: 70px;
+    color: white;    
+}
+
+#muro{
+    height: 536px;
+    width: 690px;
+    right: 0;
+    position: absolute;
+    top: 90px
+    
+}
+#verde{
+position: absolute;
+width: 240px;
+height: 280px;
+left: 50px;
+top: 140px;
+
+background: rgba(135, 251, 124, 0.727);
+}
+
+#traço{
+position: absolute;
+width: 155px;
+height: 116px;
+left: 60px;
+top: 168px;
+z-index: 2;
+border: 6px #FFFFFF;
+
+}
+#plapa{
+    font-family: 'Oswald', sans-serif ;
+    font-style: italic;
+    margin-top: 40px;
+    margin-left: 40px;
+    position: relative;
+    z-index: 5;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: rgb(0, 0, 0);
+    
+}
+
+#black{
+    position: relative;
+    width: 500px;
+    height: 200px;
+    left: 32px;
+    top: 60px; 
+background: rgba(0, 0, 0, 0.46);
+}
+#black p{
+    color: white;
+    font-size: 25px;
+    padding-top: 15px;
+    margin: 0;
+    margin-left: 15px;
+}
+#saibamais{
+    position: absolute;
+width: 200px;
+height: 70px;
+left: 282px;
+top: 338px;
+background: #32822B;
+border-radius: 17px;
+}
+
+#saibamais p{
+    font-size: 23px;
+    text-decoration: underline;
+    margin-left: 54px;
+    margin-top: 15px;
+}
+
+#linhas{
+position: absolute;
+width: 1100px;
+height: 1000px;
+left: 230px;
+top: -34.5px;
+z-index: -1;
+border: 6px 
+}
+
+
+#dicas{
+    position: absolute;
+    top: 700px;
+    left: 230px;
+
+}
+
+#fazer{
+    position: relative;
+    color: white;
+    bottom: 30px;
+    left: -80px;
+    font-size: 30px;    
+    z-index: 9;
+    width: 200px;
+
+}
+
+#dicas ul{
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+
+
+}
+
+#I1{
+    position: absolute;
+    z-index: -2;
+    height: 200px;
+    width: 350px;
+    left: 200px;
+    top: 730px;
+
+}
+
+#fazeri{
+    position: absolute;
+    width: 250px;
+    height: 70px;
+    top: 660px;
+    left: 190px;
+    background: rgba(18, 92, 12, 0.82);
+    border-radius: 23px;
+}
+
+#trasp{
+    position: absolute;
+    top: 695px;
+    left: 700px;
+    width: 100px;
+    
+
+}
+
+#trasp p{
+    color: black;
+    width: 300px;
+    position: sticky;
+    left: 0px;
+    font-size: 25px;
+}
+summary{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    width: 300px;
+    position: sticky;
+    left: 0px;
+    font-size: 25px;
+    margin-left: 70px;
+}
+details > p{
+    font-family: NONE;
+    width: 200px;
+    background-color: rgb(185, 185, 185);
+    
+}
+#trasp #tras{
+    position: relative;
+    color: white;
+    bottom: 30px;
+    left: 0px;
+    font-size: 35px;    
+    z-index: 9;
+    width: 300px;
+
+}
+
+#I2{
+    position: absolute;
+    width: 310px;
+    height: 70px;
+    top: 660px;
+    left: 740px;
+    background: rgba(18, 92, 12, 0.82);
+    border-radius: 23px;
+}
+
+#veja{
+    margin-top:1050px ;
+    text-align: center;
+
+}
+/* ------------------------section - FLEX BOX--------------------- */
+
+section img{
+    width: 300px;
+    display: block;
+    height: 191px;
+    
+}
+section{
+    display: flex;
+    position: relative;
+    top: 50px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+section > div{
+    flex: 1 1 200px;
+    margin: 10px;
+
+}
+
+/* -------------------------article---------------------------- */
+
+article{
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+
+    
+}
+article img{
+    height: 750px;
+    width: 1138px;
+}
+
+article h1{
+    margin-top: -700px;
+    font-size: 35px;
+
+}
+article p{
+    margin-top: 100px;
+    margin-left: 730px;
+    font-size: 25px;
+    width: 400px;
+}
+#mapa{
+    border-radius: 45px;
+        position: absolute;
+    top: 1730px;
+    left: 230px;
+}
+video{
+        margin-right: 0px;
+        margin-top: 30px;
+        width:450px;
+        height:325px;
+       
+    }
+
+
+
+/* -------------------------rodapé----------------------------- */
+footer{
+    position: absolute;
+    bottom: -2000px;
+    width: 100%;
+    
+}
+footer img:nth-child(2){
+    position: absolute;
+    top: 50px;
+    left: 200px;
+    z-index: 10;
+    background-color: black;
+    
+}
+footer img:nth-child(1){
+    width: 100%;
+    
+}
+footer p:nth-child(8){
+    position: absolute;
+    left: 50px;
+    top: 70px;
+    font-family: 'Oswald', sans-serif ;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 58px;
+    color: rgb(196, 189, 189);
+}
+
+#link p:nth-child(1){
+    position: absolute;
+    top: 50px;
+    left: 240px;
+    font-size: 23px;
+    
+    color: rgb(196, 189, 189);
+}
+#link p:nth-child(2){
+    position: absolute;
+    top: 86px;
+    left: 240px;
+    font-size: 23px;
+    color: rgb(196, 189, 189);
+}
+#link p:nth-child(3){
+    position: absolute;
+    top: 122px;
+    left: 240px;
+    font-size: 23px;
+    color: rgb(196, 189, 189);
+}
+#link p:nth-child(4){
+    position: absolute;
+    top: 50px;
+    left: 370px;
+    font-size: 23px;
+    color: rgb(196, 189, 189);
+}
+#link p:nth-child(5){
+    position: absolute;
+    top: 86px;
+    left: 370px;
+    font-size: 23px;
+    color: rgb(196, 189, 189);
+}
+footer img:nth-child(6){
+    position: absolute;
+    top: 50px;
+    left: 480px;
+    z-index: 10;
+    background-color: black;
+}
+footer p:nth-child(9){
+    position: absolute;
+    top: 55px;
+    left: 500px;
+    width: 340px;
+    font-size: 20px;
+    color: rgb(196, 189, 189);
+}
+
+footer p:nth-child(10){
+    position: absolute;
+    top: 55px;
+    left: 830px;
+    width: 260px;
+    font-size: 20px;
+    color: rgb(196, 189, 189);
+}
+
+footer p:nth-child(11){
+    position: absolute;
+    top: 160px;
+    left: 1000px;
+    width: 340px;
+    font-size: 20px;
+    color: rgb(196, 189, 189);
+}
+footer img:nth-child(3){
+    position: absolute;
+    top: 35px;
+    left: 1230px;
+}
+footer img:nth-child(5){
+    position: absolute;
+    top: 35px;
+    left: 1170px;
+}
+footer img:nth-child(4){
+    position: absolute;
+    top: 33px;
+    left: 1100px;   
+} 
